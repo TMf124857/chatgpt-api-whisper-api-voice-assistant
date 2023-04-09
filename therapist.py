@@ -1,3 +1,4 @@
+import os
 import gradio as gr
 import openai, config, subprocess
 openai.api_key = config.OPENAI_API_KEY
